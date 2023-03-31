@@ -2,10 +2,10 @@
 The system create public and private key pair for each user in a microservice on AWS Lambda and the encrypted private key is custodied on AWS Secrets Manager. The system use Nitro Enclaves as a secure compute environment for low-level blockchain tasks such as signing transactions.
 
 ## Architecture
-![Architecture](https://github.com/chlee114hk/xalts_assignment/PermissionedPermissioned_Web2<>Web3_Account/web2_to_web3_account_system_architecture.drawio.png)
+![Architecture](https://github.com/chlee114hk/xalts_assignment/blob/main/Permissioned_Web2%3C%3EWeb3_Account/web2_to_web3_account_system_architecture.drawio.png)
 
 ## Flow of public and private key pair creation
-![Architecture](https://github.com/chlee114hk/xalts_assignment/PermissionedPermissioned_Web2<>Web3_Account/sequence_diagram_new_account.drawio.png)
+![Architecture](https://github.com/chlee114hk/xalts_assignment/blob/main/Permissioned_Web2%3C%3EWeb3_Account/sequence_diagram_new_account.drawio.png)
 
 1. A valid Public and private key pair is generated in a microservice on AWS Lambda upon a new user account created. This service can be built using `w3.eth.account.create()` command using library web3.py or other similar library.
 
@@ -16,7 +16,7 @@ The system create public and private key pair for each user in a microservice on
 4. Create a relation record of secret id, public key and user id in RMDB.
 
 ## Signing flow
-![Architecture](https://github.com/chlee114hk/xalts_assignment/PermissionedPermissioned_Web2<>Web3_Account/sequence_diagram_sign_transaction.drawio.png)
+![Architecture](https://github.com/chlee114hk/xalts_assignment/blob/main/Permissioned_Web2%3C%3EWeb3_Account/sequence_diagram_sign_transaction.drawio.png)
 
 1. A transaction signing microservice with `sign_transaction` function is built for signing transaction for the portal users. The function sends a request with transaction payload data to the web server on parent EC2 instance containing Nitro Enclaves.
 
