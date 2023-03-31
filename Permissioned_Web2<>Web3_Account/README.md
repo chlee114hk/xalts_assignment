@@ -18,7 +18,7 @@ The system create public and private key pair for each user in a microservice on
 ## Signing flow
 ![Architecture](https://github.com/chlee114hk/xalts_assignment/blob/main/Permissioned_Web2%3C%3EWeb3_Account/sequence_diagram_sign_transaction.drawio.png)
 
-1. A transaction signing microservice with `sign_transaction` function is built for signing transaction for the portal users. The function sends a request with transaction payload data to the web server on parent EC2 instance containing Nitro Enclaves.
+1. A transaction signing microservice with `sign_transaction` function is built for signing transaction for the portal users. The function sends a request with transaction payload data to the http server on parent EC2 instance containing Nitro Enclaves.
 
 2. The double encrypted private key is downloaded from AWS Secrets Manager and decrypted the first time based on the EC2 instance role.
 
@@ -26,7 +26,7 @@ The system create public and private key pair for each user in a microservice on
 
 4. Nitro Enclaves uses the cryptographic attestation feature to decrypt the encrypted private key to plaintext version. Due to the cryptographic attestation feature and our customized KMS key policy, we can run the last decryption step from within the enclave. No other component (such as the EC2 instance) can get access to the plaintext version of the key.
 
-5. The key is used to sign the transaction inside the enclave. The signed transaction is returned to web server in the parent EC2 instance. The plaintext private key is then deleted from inside the enclave.
+5. The key is used to sign the transaction inside the enclave. The signed transaction is returned to http server in the parent EC2 instance. The plaintext private key is then deleted from inside the enclave.
 
 6. The transaction signing microservice get the signed transaction and send the  transaction to Ethereum node.
 
