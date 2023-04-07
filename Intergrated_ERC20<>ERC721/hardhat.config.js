@@ -38,7 +38,19 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
         accounts:
           // process.env.PRIVATE_KEY !== undefined ? [`0x${privateKey}`] : [],
           process.env.KEY_MNEMONIC !== undefined ? { mnemonic: mnemonic} : {},        
-      }      
+      },
+      goerli: {
+        url: `https://goerli.infura.io/v3/${infura_id}`,
+        accounts:
+          // process.env.PRIVATE_KEY !== undefined ? [`0x${privateKey}`] : [],
+          process.env.KEY_MNEMONIC !== undefined ? { mnemonic: mnemonic} : {},        
+      },
+      sepolia: {
+        url: `https://sepolia.infura.io/v3/${infura_id}`,
+        accounts:
+          // process.env.PRIVATE_KEY !== undefined ? [`0x${privateKey}`] : [],
+          process.env.KEY_MNEMONIC !== undefined ? { mnemonic: mnemonic} : {}, 
+      }
     },
     solidity: {
       version: "0.8.4",

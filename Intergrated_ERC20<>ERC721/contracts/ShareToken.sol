@@ -17,10 +17,10 @@ import "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQ
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 
 contract ShareToken is Initializable, ERC20Upgradeable, OwnableUpgradeable, ERC20PermitUpgradeable, ERC20VotesUpgradeable, ERC721Holder, GovernorUpgradeable, GovernorSettingsUpgradeable, GovernorCountingSimpleUpgradeable, GovernorVotesUpgradeable, GovernorVotesQuorumFractionUpgradeable {
-//contract ShareToken is ERC20, Ownable, Governor, ERC20Permit, ERC20Votes, ERC721Holder, GovernorSettings, GovernorCountingSimple, GovernorVotes, GovernorVotesQuorumFraction {
     IERC721 public clauseNFT;
     uint256 public tokenId;
-    bool public initialized = false;
+    address public clauseNFTAddress;
+    address public deployer;
     
     mapping(address => address) private _delegatee;
     mapping(address => bool) internal frozen;
@@ -32,24 +32,22 @@ contract ShareToken is Initializable, ERC20Upgradeable, OwnableUpgradeable, ERC2
         _;
     }
 
-    // constructor(string memory _name, string memory _symbol)
-    //     ERC20(_name, _symbol) 
-    //     ERC20Permit(_name)
-    //     // Governor(_name)
-    //     // GovernorSettings(1 /* 1 block */, type(uint256).max /* assume no end time for vote */, 0)
-    //     // GovernorVotes(IVotes(address(this)))
-    //     // GovernorVotesQuorumFraction(0)
-    // {}
-    /// @custom:oz-upgrades-unsafe-allow constructor
-
-    constructor() {
-        _disableInitializers();
+    modifier isApprovedOrOwner(address token, address spender, uint256 tokenId_) {
+        address owner = ERC721(token).ownerOf(tokenId_);
+        require(spender == owner || ERC721(token).isApprovedForAll(owner, spender) || ERC721(token).getApproved(tokenId_) == spender);
+        _;
     }
 
-    function initialize(string memory _name, string memory _symbol, address _clauseNFT, uint256 _tokenId) external onlyOwner {
-        require(!initialized, "Already initialized");
-        __ERC20_init(_name, _symbol);
+    /// @custom:oz-upgrades-unsafe-allow constructor
+    constructor() {
+        deployer = msg.sender;
+    }
+
+    function initialize(string memory _name, string memory _symbol, address _clauseNFT, uint256 _tokenId) external initializer isApprovedOrOwner(_clauseNFT, address(this),  _tokenId) {
+        require(msg.sender == deployer);
+
         __Ownable_init();
+        __ERC20_init(_name, _symbol);
         __ERC20Permit_init(_name);
         __ERC20Votes_init();
         __Governor_init(_name);
@@ -58,9 +56,13 @@ contract ShareToken is Initializable, ERC20Upgradeable, OwnableUpgradeable, ERC2
         __GovernorVotes_init(IVotesUpgradeable(address(this)));
         __GovernorVotesQuorumFraction_init(0);
 
-        clauseNFT = IERC721(_clauseNFT);
-        clauseNFT.safeTransferFrom(msg.sender, address(this), _tokenId);
-        initialized = true;
+        tokenId = _tokenId;
+        clauseNFTAddress = _clauseNFT;
+
+        if (ERC721(_clauseNFT).ownerOf(_tokenId) != address(this)) {
+            clauseNFT = IERC721(_clauseNFT);
+            clauseNFT.safeTransferFrom(msg.sender, address(this), _tokenId);
+        }
     }
 
     function mint(address to, uint256 amount) public onlyOwner {
@@ -100,9 +102,15 @@ contract ShareToken is Initializable, ERC20Upgradeable, OwnableUpgradeable, ERC2
 
     function updateClause(address _clauseNFT, uint256 _tokenId) public 
         onlyGovernance
+        isApprovedOrOwner(_clauseNFT, address(this),  _tokenId)
     {
-        clauseNFT = IERC721(_clauseNFT);
-        clauseNFT.safeTransferFrom(msg.sender, address(this), _tokenId);
+        tokenId = _tokenId;
+        clauseNFTAddress = _clauseNFT;
+
+        if (ERC721(_clauseNFT).ownerOf(_tokenId) != address(this)) {
+            clauseNFT = IERC721(_clauseNFT);
+            clauseNFT.safeTransferFrom(msg.sender, address(this), _tokenId);
+        }
     }
 
     function proposeUpdateClause(address _clauseNFT, uint256 _tokenId) public
@@ -119,6 +127,22 @@ contract ShareToken is Initializable, ERC20Upgradeable, OwnableUpgradeable, ERC2
         calldataList[0] = callDataPayload;
 
         propose(addressList, valueList, calldataList, "Update Clause");
+    }
+
+    function proposeUpdateClauseNFTbaseURI(string memory _baseURI) public
+        onlyOwner
+    {
+        bytes memory callDataPayload = abi.encodeWithSignature("setBaseURI(string)", _baseURI);
+        
+        address[] memory addressList;
+        uint256[] memory valueList;
+        bytes[] memory calldataList;
+
+        addressList[0] = address(clauseNFTAddress);
+        valueList[0] = 0;
+        calldataList[0] = callDataPayload;
+
+        propose(addressList, valueList, calldataList, "Update ClauseNFT Base URI");
     }
 
     function _voteSucceeded(uint256 proposalId) 

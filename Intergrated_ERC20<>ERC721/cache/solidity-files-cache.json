@@ -1,9 +1,9 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/vincentlee/src/xalts_assignment/contracts/ClauseNFT.sol": {
-      "lastModificationDate": 1680212182077,
-      "contentHash": "727265bbb1b9d73e6447f2b9cb2a1d64",
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/contracts/ClauseNFT.sol": {
+      "lastModificationDate": 1680753485579,
+      "contentHash": "072c367b6e136c1b8a11ec17d92ca852",
       "sourceName": "contracts/ClauseNFT.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -40,8 +40,8 @@
         "ClauseNFT"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
-      "lastModificationDate": 1680104321732,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1680720115715,
       "contentHash": "e436cea06129be2c73cda4b1acc848b5",
       "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
       "solcConfig": {
@@ -77,8 +77,8 @@
         "Ownable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
-      "lastModificationDate": 1680104321279,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
+      "lastModificationDate": 1680720113236,
       "contentHash": "f7f4f78c31f28534852e5c56000a25af",
       "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
       "solcConfig": {
@@ -120,8 +120,8 @@
         "ERC721"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol": {
-      "lastModificationDate": 1680104321313,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol": {
+      "lastModificationDate": 1680720113339,
       "contentHash": "8af32effd0536e2971ff8496812a5016",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
       "solcConfig": {
@@ -157,8 +157,8 @@
         "ERC721URIStorage"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts/utils/Context.sol": {
-      "lastModificationDate": 1680104320959,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1680720112552,
       "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
@@ -192,8 +192,8 @@
         "Context"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts/utils/Address.sol": {
-      "lastModificationDate": 1680104320909,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1680720112451,
       "contentHash": "f31ad6fc4bbf9c06203987220156a6ba",
       "sourceName": "@openzeppelin/contracts/utils/Address.sol",
       "solcConfig": {
@@ -227,8 +227,8 @@
         "Address"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
-      "lastModificationDate": 1680104321859,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
+      "lastModificationDate": 1680720116455,
       "contentHash": "396031251978f8febfd90cb62cb240ec",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
       "solcConfig": {
@@ -264,8 +264,8 @@
         "Strings"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
-      "lastModificationDate": 1680104321149,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
+      "lastModificationDate": 1680720112927,
       "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
       "solcConfig": {
@@ -301,8 +301,8 @@
         "ERC165"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
-      "lastModificationDate": 1680104321614,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
+      "lastModificationDate": 1680720114714,
       "contentHash": "c22d4395e33763de693fd440c6fd10e1",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
       "solcConfig": {
@@ -336,8 +336,8 @@
         "IERC721Receiver"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
-      "lastModificationDate": 1680104321598,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
+      "lastModificationDate": 1680720114414,
       "contentHash": "eb7e61db29f31d88b3c1cef1b063d338",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
       "solcConfig": {
@@ -373,8 +373,8 @@
         "IERC721"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
-      "lastModificationDate": 1680104321610,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
+      "lastModificationDate": 1680720114701,
       "contentHash": "efbc0d15b80a74e34dbe8da0f3e879bb",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
       "solcConfig": {
@@ -410,8 +410,8 @@
         "IERC721Metadata"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts/utils/math/Math.sol": {
-      "lastModificationDate": 1680104321714,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts/utils/math/Math.sol": {
+      "lastModificationDate": 1680720115574,
       "contentHash": "b9c58920ce74d6dc819161786112e7ee",
       "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
       "solcConfig": {
@@ -445,8 +445,8 @@
         "Math"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
-      "lastModificationDate": 1680104321536,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+      "lastModificationDate": 1680720113722,
       "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
       "solcConfig": {
@@ -480,8 +480,8 @@
         "IERC165"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.sol": {
-      "lastModificationDate": 1680104321300,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.sol": {
+      "lastModificationDate": 1680720113290,
       "contentHash": "54062ff887823a306b33ea6494a220bc",
       "sourceName": "@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.sol",
       "solcConfig": {
@@ -517,9 +517,9 @@
         "ERC721Holder"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/contracts/ShareToken.sol": {
-      "lastModificationDate": 1680212828665,
-      "contentHash": "75b8bd5625f866a72ea3b3eefa784b0a",
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/contracts/ShareToken.sol": {
+      "lastModificationDate": 1680829587944,
+      "contentHash": "c50bc3a8c36047e5d32363daf940bea4",
       "sourceName": "contracts/ShareToken.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -565,8 +565,8 @@
         "ShareToken"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol": {
-      "lastModificationDate": 1680104321827,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol": {
+      "lastModificationDate": 1680720115488,
       "contentHash": "403ce8273abde646bff81558ddf512ad",
       "sourceName": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
       "solcConfig": {
@@ -603,8 +603,162 @@
         "OwnableUpgradeable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/governance/GovernorUpgradeable.sol": {
-      "lastModificationDate": 1680104321489,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol": {
+      "lastModificationDate": 1680720112961,
+      "contentHash": "3731d62752408e56578b89ac293659c6",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20Upgradeable.sol",
+        "./extensions/IERC20MetadataUpgradeable.sol",
+        "../../utils/ContextUpgradeable.sol",
+        "../../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Upgradeable"
+      ]
+    },
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesUpgradeable.sol": {
+      "lastModificationDate": 1680720113464,
+      "contentHash": "809326938ad7c3d72ba9d7c01c2200c9",
+      "sourceName": "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../GovernorUpgradeable.sol",
+        "../utils/IVotesUpgradeable.sol",
+        "../../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GovernorVotesUpgradeable"
+      ]
+    },
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/governance/extensions/GovernorCountingSimpleUpgradeable.sol": {
+      "lastModificationDate": 1680720113363,
+      "contentHash": "b9ca2a6511001151006849488089ccb0",
+      "sourceName": "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorCountingSimpleUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../GovernorUpgradeable.sol",
+        "../../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GovernorCountingSimpleUpgradeable"
+      ]
+    },
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol": {
+      "lastModificationDate": 1680720114928,
+      "contentHash": "fc5844e59776a976987884e4d9814c7d",
+      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/AddressUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/governance/GovernorUpgradeable.sol": {
+      "lastModificationDate": 1680720113435,
       "contentHash": "fdb286bb386b626bb36fb1cd99bca659",
       "sourceName": "@openzeppelin/contracts-upgradeable/governance/GovernorUpgradeable.sol",
       "solcConfig": {
@@ -651,125 +805,8 @@
         "GovernorUpgradeable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/governance/extensions/GovernorCountingSimpleUpgradeable.sol": {
-      "lastModificationDate": 1680104321414,
-      "contentHash": "b9ca2a6511001151006849488089ccb0",
-      "sourceName": "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorCountingSimpleUpgradeable.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../GovernorUpgradeable.sol",
-        "../../proxy/utils/Initializable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "GovernorCountingSimpleUpgradeable"
-      ]
-    },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesUpgradeable.sol": {
-      "lastModificationDate": 1680104321495,
-      "contentHash": "809326938ad7c3d72ba9d7c01c2200c9",
-      "sourceName": "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesUpgradeable.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../GovernorUpgradeable.sol",
-        "../utils/IVotesUpgradeable.sol",
-        "../../proxy/utils/Initializable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "GovernorVotesUpgradeable"
-      ]
-    },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol": {
-      "lastModificationDate": 1680104321281,
-      "contentHash": "3731d62752408e56578b89ac293659c6",
-      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./IERC20Upgradeable.sol",
-        "./extensions/IERC20MetadataUpgradeable.sol",
-        "../../utils/ContextUpgradeable.sol",
-        "../../proxy/utils/Initializable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ERC20Upgradeable"
-      ]
-    },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/governance/extensions/GovernorSettingsUpgradeable.sol": {
-      "lastModificationDate": 1680104321452,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/governance/extensions/GovernorSettingsUpgradeable.sol": {
+      "lastModificationDate": 1680720113388,
       "contentHash": "61b1a9ccb8fbf470126d9fdab1dd7645",
       "sourceName": "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorSettingsUpgradeable.sol",
       "solcConfig": {
@@ -806,85 +843,8 @@
         "GovernorSettingsUpgradeable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol": {
-      "lastModificationDate": 1680104321492,
-      "contentHash": "f03b4035e323095ad5c1e1dfa2eebd53",
-      "sourceName": "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./GovernorVotesUpgradeable.sol",
-        "../../utils/CheckpointsUpgradeable.sol",
-        "../../utils/math/SafeCastUpgradeable.sol",
-        "../../proxy/utils/Initializable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "GovernorVotesQuorumFractionUpgradeable"
-      ]
-    },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol": {
-      "lastModificationDate": 1680104321734,
-      "contentHash": "fc5844e59776a976987884e4d9814c7d",
-      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../../utils/AddressUpgradeable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.2"
-      ],
-      "artifacts": [
-        "Initializable"
-      ]
-    },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/extensions/draft-ERC20PermitUpgradeable.sol": {
-      "lastModificationDate": 1680104321057,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/extensions/draft-ERC20PermitUpgradeable.sol": {
+      "lastModificationDate": 1680720112622,
       "contentHash": "8bce39d1c92a8a00597c31ef2fe40eb1",
       "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/draft-ERC20PermitUpgradeable.sol",
       "solcConfig": {
@@ -925,8 +885,8 @@
         "ERC20PermitUpgradeable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol": {
-      "lastModificationDate": 1680104321287,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol": {
+      "lastModificationDate": 1680720112977,
       "contentHash": "e1c3d956590a38221ae41a64448beace",
       "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
       "solcConfig": {
@@ -967,8 +927,48 @@
         "ERC20VotesUpgradeable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol": {
-      "lastModificationDate": 1680104320976,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol": {
+      "lastModificationDate": 1680720113454,
+      "contentHash": "f03b4035e323095ad5c1e1dfa2eebd53",
+      "sourceName": "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./GovernorVotesUpgradeable.sol",
+        "../../utils/CheckpointsUpgradeable.sol",
+        "../../utils/math/SafeCastUpgradeable.sol",
+        "../../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GovernorVotesQuorumFractionUpgradeable"
+      ]
+    },
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol": {
+      "lastModificationDate": 1680720112476,
       "contentHash": "6200b84950eb05b4a92a39fd1d6e0f9b",
       "sourceName": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol",
       "solcConfig": {
@@ -1004,8 +1004,8 @@
         "ContextUpgradeable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol": {
-      "lastModificationDate": 1680104320930,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol": {
+      "lastModificationDate": 1680720112383,
       "contentHash": "228f256dbb21393bc9ad02648e222f74",
       "sourceName": "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol",
       "solcConfig": {
@@ -1039,8 +1039,115 @@
         "AddressUpgradeable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/utils/TimersUpgradeable.sol": {
-      "lastModificationDate": 1680104321924,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol": {
+      "lastModificationDate": 1680720113705,
+      "contentHash": "a9ed3c7bc7d9ebb5e34f20829274f088",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Upgradeable"
+      ]
+    },
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/extensions/IERC20MetadataUpgradeable.sol": {
+      "lastModificationDate": 1680720113690,
+      "contentHash": "9efcd5467a7f0bf533910ee8a267adb2",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/IERC20MetadataUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20Upgradeable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20MetadataUpgradeable"
+      ]
+    },
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/governance/utils/IVotesUpgradeable.sol": {
+      "lastModificationDate": 1680720115030,
+      "contentHash": "432a27bbcb26badb3d40e9fb214d09f9",
+      "sourceName": "@openzeppelin/contracts-upgradeable/governance/utils/IVotesUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IVotesUpgradeable"
+      ]
+    },
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/utils/TimersUpgradeable.sol": {
+      "lastModificationDate": 1680720116188,
       "contentHash": "0e886b0051ad9fe6a184a14f9b6ee09b",
       "sourceName": "@openzeppelin/contracts-upgradeable/utils/TimersUpgradeable.sol",
       "solcConfig": {
@@ -1074,8 +1181,45 @@
         "TimersUpgradeable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/IERC721ReceiverUpgradeable.sol": {
-      "lastModificationDate": 1680104321669,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/token/ERC1155/IERC1155ReceiverUpgradeable.sol": {
+      "lastModificationDate": 1680720113595,
+      "contentHash": "eb51ed084f6f7fd2c7098715c5690285",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC1155/IERC1155ReceiverUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/introspection/IERC165Upgradeable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1155ReceiverUpgradeable"
+      ]
+    },
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/IERC721ReceiverUpgradeable.sol": {
+      "lastModificationDate": 1680720114175,
       "contentHash": "ba28cf60b52b00d2b3a190bcdf0952bd",
       "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC721/IERC721ReceiverUpgradeable.sol",
       "solcConfig": {
@@ -1109,45 +1253,8 @@
         "IERC721ReceiverUpgradeable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/utils/cryptography/ECDSAUpgradeable.sol": {
-      "lastModificationDate": 1680104321080,
-      "contentHash": "b3e120a8002394aabbbc467369cd7390",
-      "sourceName": "@openzeppelin/contracts-upgradeable/utils/cryptography/ECDSAUpgradeable.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../StringsUpgradeable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ECDSAUpgradeable"
-      ]
-    },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/utils/cryptography/EIP712Upgradeable.sol": {
-      "lastModificationDate": 1680104321088,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/utils/cryptography/EIP712Upgradeable.sol": {
+      "lastModificationDate": 1680720112696,
       "contentHash": "4022a2f2e92f5c281d1a2cdae10a9e6b",
       "sourceName": "@openzeppelin/contracts-upgradeable/utils/cryptography/EIP712Upgradeable.sol",
       "solcConfig": {
@@ -1184,10 +1291,10 @@
         "EIP712Upgradeable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/utils/structs/DoubleEndedQueueUpgradeable.sol": {
-      "lastModificationDate": 1680104321040,
-      "contentHash": "a22ef83e69eaff73736c74e7020b8bcf",
-      "sourceName": "@openzeppelin/contracts-upgradeable/utils/structs/DoubleEndedQueueUpgradeable.sol",
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/utils/cryptography/ECDSAUpgradeable.sol": {
+      "lastModificationDate": 1680720112678,
+      "contentHash": "b3e120a8002394aabbbc467369cd7390",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/cryptography/ECDSAUpgradeable.sol",
       "solcConfig": {
         "version": "0.8.4",
         "settings": {
@@ -1212,54 +1319,17 @@
         }
       },
       "imports": [
-        "../math/SafeCastUpgradeable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.4"
-      ],
-      "artifacts": [
-        "DoubleEndedQueueUpgradeable"
-      ]
-    },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/token/ERC1155/IERC1155ReceiverUpgradeable.sol": {
-      "lastModificationDate": 1680104321574,
-      "contentHash": "eb51ed084f6f7fd2c7098715c5690285",
-      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC1155/IERC1155ReceiverUpgradeable.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../../utils/introspection/IERC165Upgradeable.sol"
+        "../StringsUpgradeable.sol"
       ],
       "versionPragmas": [
         "^0.8.0"
       ],
       "artifacts": [
-        "IERC1155ReceiverUpgradeable"
+        "ECDSAUpgradeable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol": {
-      "lastModificationDate": 1680104321184,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol": {
+      "lastModificationDate": 1680720112882,
       "contentHash": "5f2d8b81c0ff5bd2047b4846c20b998d",
       "sourceName": "@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol",
       "solcConfig": {
@@ -1296,8 +1366,45 @@
         "ERC165Upgradeable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/utils/math/SafeCastUpgradeable.sol": {
-      "lastModificationDate": 1680104321857,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/utils/structs/DoubleEndedQueueUpgradeable.sol": {
+      "lastModificationDate": 1680720112570,
+      "contentHash": "a22ef83e69eaff73736c74e7020b8bcf",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/structs/DoubleEndedQueueUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../math/SafeCastUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "DoubleEndedQueueUpgradeable"
+      ]
+    },
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/utils/math/SafeCastUpgradeable.sol": {
+      "lastModificationDate": 1680720115689,
       "contentHash": "8565f9d83dfbed34d9ff896c02e23ae7",
       "sourceName": "@openzeppelin/contracts-upgradeable/utils/math/SafeCastUpgradeable.sol",
       "solcConfig": {
@@ -1331,8 +1438,8 @@
         "SafeCastUpgradeable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/governance/IGovernorUpgradeable.sol": {
-      "lastModificationDate": 1680104321721,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/governance/IGovernorUpgradeable.sol": {
+      "lastModificationDate": 1680720114741,
       "contentHash": "f225967b7ebbd1c576ee99d143c6c1f7",
       "sourceName": "@openzeppelin/contracts-upgradeable/governance/IGovernorUpgradeable.sol",
       "solcConfig": {
@@ -1369,8 +1476,43 @@
         "IGovernorUpgradeable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol": {
-      "lastModificationDate": 1680104321888,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/utils/introspection/IERC165Upgradeable.sol": {
+      "lastModificationDate": 1680720113653,
+      "contentHash": "d6ecf203a5e72c845be9bbf2f304a289",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/introspection/IERC165Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165Upgradeable"
+      ]
+    },
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol": {
+      "lastModificationDate": 1680720116088,
       "contentHash": "3805d0267faeda96624b50a67ca89f08",
       "sourceName": "@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol",
       "solcConfig": {
@@ -1406,8 +1548,8 @@
         "StringsUpgradeable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol": {
-      "lastModificationDate": 1680104321794,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol": {
+      "lastModificationDate": 1680720115265,
       "contentHash": "469f71655418cc5f328fcc9bfdf10e9a",
       "sourceName": "@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol",
       "solcConfig": {
@@ -1441,10 +1583,10 @@
         "MathUpgradeable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/utils/introspection/IERC165Upgradeable.sol": {
-      "lastModificationDate": 1680104321602,
-      "contentHash": "d6ecf203a5e72c845be9bbf2f304a289",
-      "sourceName": "@openzeppelin/contracts-upgradeable/utils/introspection/IERC165Upgradeable.sol",
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/utils/CountersUpgradeable.sol": {
+      "lastModificationDate": 1680720112479,
+      "contentHash": "2e908c762a799baea365e68a50500e2c",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/CountersUpgradeable.sol",
       "solcConfig": {
         "version": "0.8.4",
         "settings": {
@@ -1473,13 +1615,13 @@
         "^0.8.0"
       ],
       "artifacts": [
-        "IERC165Upgradeable"
+        "CountersUpgradeable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/governance/utils/IVotesUpgradeable.sol": {
-      "lastModificationDate": 1680104321763,
-      "contentHash": "432a27bbcb26badb3d40e9fb214d09f9",
-      "sourceName": "@openzeppelin/contracts-upgradeable/governance/utils/IVotesUpgradeable.sol",
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/extensions/draft-IERC20PermitUpgradeable.sol": {
+      "lastModificationDate": 1680720112659,
+      "contentHash": "afab576c4d1f55fbf293a0daf3826e31",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/draft-IERC20PermitUpgradeable.sol",
       "solcConfig": {
         "version": "0.8.4",
         "settings": {
@@ -1508,83 +1650,11 @@
         "^0.8.0"
       ],
       "artifacts": [
-        "IVotesUpgradeable"
+        "IERC20PermitUpgradeable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol": {
-      "lastModificationDate": 1680104321627,
-      "contentHash": "a9ed3c7bc7d9ebb5e34f20829274f088",
-      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC20Upgradeable"
-      ]
-    },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/extensions/IERC20MetadataUpgradeable.sol": {
-      "lastModificationDate": 1680104321619,
-      "contentHash": "9efcd5467a7f0bf533910ee8a267adb2",
-      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/IERC20MetadataUpgradeable.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../IERC20Upgradeable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC20MetadataUpgradeable"
-      ]
-    },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/utils/CheckpointsUpgradeable.sol": {
-      "lastModificationDate": 1680104320949,
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/utils/CheckpointsUpgradeable.sol": {
+      "lastModificationDate": 1680720112429,
       "contentHash": "81699d55def2d12db76bfcde7a6c11d1",
       "sourceName": "@openzeppelin/contracts-upgradeable/utils/CheckpointsUpgradeable.sol",
       "solcConfig": {
@@ -1621,10 +1691,51 @@
         "CheckpointsUpgradeable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/utils/CountersUpgradeable.sol": {
-      "lastModificationDate": 1680104320982,
-      "contentHash": "2e908c762a799baea365e68a50500e2c",
-      "sourceName": "@openzeppelin/contracts-upgradeable/utils/CountersUpgradeable.sol",
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol": {
+      "lastModificationDate": 1680720112900,
+      "contentHash": "d1ceeaa35b60471b1c6e50d29d70354a",
+      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../beacon/IBeaconUpgradeable.sol",
+        "../../interfaces/draft-IERC1822Upgradeable.sol",
+        "../../utils/AddressUpgradeable.sol",
+        "../../utils/StorageSlotUpgradeable.sol",
+        "../utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "ERC1967UpgradeUpgradeable"
+      ]
+    },
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/interfaces/draft-IERC1822Upgradeable.sol": {
+      "lastModificationDate": 1680720112653,
+      "contentHash": "a6883cfd85607b16c121a02728369eb3",
+      "sourceName": "@openzeppelin/contracts-upgradeable/interfaces/draft-IERC1822Upgradeable.sol",
       "solcConfig": {
         "version": "0.8.4",
         "settings": {
@@ -1653,13 +1764,13 @@
         "^0.8.0"
       ],
       "artifacts": [
-        "CountersUpgradeable"
+        "IERC1822ProxiableUpgradeable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/extensions/draft-IERC20PermitUpgradeable.sol": {
-      "lastModificationDate": 1680104321077,
-      "contentHash": "afab576c4d1f55fbf293a0daf3826e31",
-      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/draft-IERC20PermitUpgradeable.sol",
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol": {
+      "lastModificationDate": 1680720116003,
+      "contentHash": "731fafe5fdaca6e0749253ab7ce7d3b9",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol",
       "solcConfig": {
         "version": "0.8.4",
         "settings": {
@@ -1688,10 +1799,84 @@
         "^0.8.0"
       ],
       "artifacts": [
-        "IERC20PermitUpgradeable"
+        "StorageSlotUpgradeable"
       ]
     },
-    "/Users/vincentlee/src/xalts_assignment/contracts/TokenGovernor.sol": {
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/proxy/beacon/IBeaconUpgradeable.sol": {
+      "lastModificationDate": 1680720113534,
+      "contentHash": "21bffd733b4ca013e125a0ffe2e52254",
+      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/beacon/IBeaconUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IBeaconUpgradeable"
+      ]
+    },
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol": {
+      "lastModificationDate": 1680720116275,
+      "contentHash": "e271d7f01f6ba5cb9dbe19c49180243d",
+      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/draft-IERC1822Upgradeable.sol",
+        "../ERC1967/ERC1967UpgradeUpgradeable.sol",
+        "./Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "UUPSUpgradeable"
+      ]
+    },
+    "/Users/vincentlee/src/xalts_assignment/Intergrated_ERC20<>ERC721/contracts/TokenGovernor.sol": {
       "lastModificationDate": 1680209898308,
       "contentHash": "d08c09ba127a98b585145c9bac02d89e",
       "sourceName": "contracts/TokenGovernor.sol",
@@ -1733,191 +1918,6 @@
       ],
       "artifacts": [
         "TokenGovernor"
-      ]
-    },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol": {
-      "lastModificationDate": 1680104321931,
-      "contentHash": "e271d7f01f6ba5cb9dbe19c49180243d",
-      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../../interfaces/draft-IERC1822Upgradeable.sol",
-        "../ERC1967/ERC1967UpgradeUpgradeable.sol",
-        "./Initializable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "UUPSUpgradeable"
-      ]
-    },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/interfaces/draft-IERC1822Upgradeable.sol": {
-      "lastModificationDate": 1680104321076,
-      "contentHash": "a6883cfd85607b16c121a02728369eb3",
-      "sourceName": "@openzeppelin/contracts-upgradeable/interfaces/draft-IERC1822Upgradeable.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC1822ProxiableUpgradeable"
-      ]
-    },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol": {
-      "lastModificationDate": 1680104321208,
-      "contentHash": "d1ceeaa35b60471b1c6e50d29d70354a",
-      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../beacon/IBeaconUpgradeable.sol",
-        "../../interfaces/draft-IERC1822Upgradeable.sol",
-        "../../utils/AddressUpgradeable.sol",
-        "../../utils/StorageSlotUpgradeable.sol",
-        "../utils/Initializable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.2"
-      ],
-      "artifacts": [
-        "ERC1967UpgradeUpgradeable"
-      ]
-    },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol": {
-      "lastModificationDate": 1680104321884,
-      "contentHash": "731fafe5fdaca6e0749253ab7ce7d3b9",
-      "sourceName": "@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "StorageSlotUpgradeable"
-      ]
-    },
-    "/Users/vincentlee/src/xalts_assignment/node_modules/@openzeppelin/contracts-upgradeable/proxy/beacon/IBeaconUpgradeable.sol": {
-      "lastModificationDate": 1680104321536,
-      "contentHash": "21bffd733b4ca013e125a0ffe2e52254",
-      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/beacon/IBeaconUpgradeable.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IBeaconUpgradeable"
       ]
     }
   }
